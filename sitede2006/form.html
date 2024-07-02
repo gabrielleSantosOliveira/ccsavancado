@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+
+        <div id="logoheader">
+            <img style="width: 128px; height: 128px; padding: 0;" src="imagens/logotipomusicas2006.png"
+                alt="logotipo do site com um M e um número 6." />
+        </div>
+
+        <nav id="idMenu">
+            <ul>
+                <a href="index.html">
+                    <li>Página inicial</li>
+                </a>
+                <a href="galeria.html" rel="prev">
+                    <li>Cantores e músicas</li>
+                </a>
+                <a href="#">
+                    <li>Cadastro</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1 style="font-size: 30px;">
+            Cadastro básico:
+        </h1>
+
+        <div id="idForm">
+            <form action="">
+                <fieldset>
+                    <legend>
+                        Cadastro para personalizarmos seu site e trazermos músicas de 2006:
+                    </legend>
+                    <br />
+                    <label for="idNome">Digite seu nome completo:</label>
+                    <input name="nomeCad" type="text" id="idNome" /><br />
+                    <label for="idData">Data de Nascimento:</label>
+                    <input name="dataNasCad" type="date" id="idData" /><br />
+                    <label for="idSenha">Digite sua senha:</label>
+                    <input name="senhaCad" type="password" id="idSenha" /><br />
+                    <label for="idEmail">Digite seu email:</label>
+                    <input name="emailCad" type="email" id="idEmail" /><br />
+                    <p>Marque seu estilo favorito:</p>
+                    <input type="radio" id="idRock" name="estiloM" /><label for="idRock">Rock/Rock pop</label><br />
+                    <input type="radio" id="idCoun" name="estiloM" /><label for="idCoun">Country</label><br />
+                    <input type="radio" id="idEmo" name="estiloM" /><label for="idEmo">Emo</label><br />
+                    <input type="radio" id="idEle" name="estiloM" /><label for="idEle">Eletrônica</label><br />
+                    <input type="radio" id="idHip" name="estiloM" /><label for="idHip">Hip hop</label><br /> <br />
+                    <label for="idCantor">Selecione seu cantor favorito:</label> <br />
+                    <select id="idCantor">
+                        <option value="nulo"></option>
+                        <option value="justin">Justin Timberlake</option>
+                        <option value="beyouce">Beyoncé</option>
+                        <option value="rihanna">Rihanna</option>
+                        <option value="christina">Christina Aguilera</option>
+                    </select>
+                    <br />
+                    <br />
+                    <input type="submit" value="Envie" />
+                    <input type="reset" value="Cancelar" />
+                </fieldset>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <a href="https://www.whatsapp.com/?lang=pt_BR" rel="external" target="_blank"><img class="imgFooter" src="imagens/whats.png"
+                alt="logo do aplicativo whatsapp preta" /></a>
+        <a href="https://www.instagram.com/" rel="external" target="_blank"><img class="imgFooter" src="imagens/insta.png"
+                alt="logo do aplicativo instagram preta" /></a>
+    </footer>
+
+</body>
+
+</html>
